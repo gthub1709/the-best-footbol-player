@@ -1,0 +1,16 @@
+const input = document.getElementById('taskInput');
+const addButton = document.getElementById("addTaskbutton")
+const tasklist = document. getElementById("tasklist")
+
+addButton.addEventListener ("click"()=> {
+    const taskinput =input.value.trim()
+
+    if (taskInput) {
+        const li = document.appendChild(li)
+        li.textContent = taskInput
+        tasklist.appendChild(li)
+
+        input.value =""
+    }
+
+
